@@ -27,4 +27,12 @@ namespace Practice
         }
     }
 
+    class Multiplication: ArithmeticOperation
+    {
+        public override int Operation(int x, int b)
+        {
+            return x * b; 
+        }
+    }
+
 }
