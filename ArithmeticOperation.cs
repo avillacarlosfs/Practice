@@ -4,13 +4,9 @@ using System.Text;
 
 namespace Practice
 {
-    public class ArithmeticOperation
+    abstract public class ArithmeticOperation
     {
-        public virtual int Operation(int x, int b)
-        {
-            Console.WriteLine("adding", x, b);
-            return x + b;
-        }
+        abstract public int Operation(int x, int b);
     }
     class Addition: ArithmeticOperation
     {
